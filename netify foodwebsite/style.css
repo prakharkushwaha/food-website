@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {overflow-x: hidden;
+    font-family: 'Balsamiq Sans', cursive;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+
+.logo img {
+    height: 60px;
+    width: 100px;
+    padding: 0px 10px;
+}
+
+.navdiv a {
+    text-decoration: none;
+    padding: 0px 30px;
+    font-size: 30px;
+    color: blue;
+}
+
+.icon i {
+    font-size: 30px;
+    color: blue;
+    padding: 0px 10px;
+}
+
+.navdiv a:hover {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+
+.banner {
+    display: flex;
+    width: 1200px;
+
+    margin: 20px auto;
+    gap: 50px;
+    justify-content: center;
+}
+
+.banner img {
+    border-radius: 15px;
+    height: 500px;
+    width: 600px;
+}
+
+.bannerside {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer {
+    background-color: darkorange;
+    padding: 8px 8px;
+    font-size: 40px;
+    display: flex;
+    
+    align-items: center;
+    width: 40%;
+    padding-left: 20px;
+}
+
+.banner h2 {
+    font-size: 80px;
+    margin-top: 0px;
+}
+
+.banner button {
+    background-color: green;
+    color: bisque;
+    align-self: flex-start;
+    padding: 13px 13px;
+}
+
+.banner p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.offerzone img {
+    height: 50px;
+    width: 70px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.offerzone {
+    background-color: grey;
+    border-radius: 10px;
+    animation-name: offer;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes offer {
+    from {
+        background-color: blueviolet;
+    }
+
+    to {
+        background-color: chartreuse;
+    }
+}
+
+.offerzone h3 {margin-top: 10px;
+    font-size: 30px;
+    color: rgb(70, 20, 187);
+    animation-name: offerzone;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes offerzone {
+    from {
+        color: rgb(180, 12, 12);
+    }
+
+    to {
+        color: black;
+    }
+}
+
+.dishes img {
+    border: 4px solid blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.dishes {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 4px 4px;
+    border-radius: 10px;
+}
+
+.dish a:hover {
+    background-color: orange;
+}
+
+.searchbar {
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 3px 0px;
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 110, 8);
+
+}
+
+.searchbar input {
+    padding: 5px 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 5px solid blue;
+}
+
+.searchbar .searchicon {
+    margin-top: 7px;
+    font-size: 30px;
+
+
+    border-radius: 10px;
+}
+
+.searchitems {
+    width: 1400px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.searchitems img {
+    border-radius: 400px;
+    align-items: center;
+}
+
+.offerbanner {
+    width: px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: bisque;
+
+}
+
+.offerbanner img {
+    height: 400px;
+    width: 400px;
+
+}
+
+.offerbanner h1 {
+    font-size: 6rem;
+}
+
+.offerbanner button {
+    font-size: 50px;
+    align-self: center;
+    margin-top: 20px;
+    padding: 4px 4px;
+    background-color: greenyellow;
+    animation-name: graboffer;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes graboffer {
+    from {
+        background-color: greenyellow;
+    }
+
+    to {
+        background-color: orangered;
+    }
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.drinksicon {
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 10px;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 20px;
+
+
+}
+
+.drinksicon i {
+    color: rgb(9, 255, 0);
+    margin-right: 10px
+}
+
+.drinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.cold {
+    display: flex;
+    align-items: center;
+}
+
+.cold a {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.colddrinks2 img {
+    border-radius: 70px;
+}
+
+.aboutus {
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus{font-size: 20px;
+    text-align: center;
+    padding-top: -50px;
+    padding-bottom: -100px;
+    position: relative;
+}
+.aboutus::before{content: "";
+    background: url(images/banner2.jpg.jpeg);
+    background-size: cover;
+    position: absolute;
+   
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .3;
+}
+.heading h2{color: rgb(241, 7, 7);
+    font-size: 5rem;
+}
+.heading H3{font-size: 3rem;
+    color: brown;
+    margin-top: 1opx;
+
+
+}
+.backbutton a{
+    color: rgb(252, 249, 245);
+    background-color: rgb(134, 54, 54);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+ 
+
+}
+.backbutton{margin-bottom: 10px;
+    display: flex;
+   gap: 40px;
+}
+.backbutton a:hover{
+    color: black;
+    background-color: beige;
+}

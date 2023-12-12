@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{font-family: 'Oswald', sans-serif;
+    background: url(images/paymentbg.jpg.jpg);
+    background-size: cover;
+}
+.container{padding: 30px 40px;
+ 
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.cards img{
+    height: 80px;
+    width: 100px;
+    border-radius: 30px;
+    border: 2px solid blue;
+}
+.topsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line{
+    border: 3px solid black;
+}
+.paynow{
+    font-size: 2rem;
+    text-align: center;
+    background-color: burlywood;
+    animation-name: pay;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes pay{
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: chartreuse;
+    }
+}
+.dropbtn {
+    background-color: #321ee6;
+    color: rgb(248, 234, 248);
+    padding: 16px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+ 
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  .dropdown-content a {font-size: 30px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #03d6e6}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #9015e2;
+  }
+  .label{
+    display: flex ;
+    flex-direction: column;
+  }
+  .label label{font-family: 'Oswald', sans-serif;
+    font-size: 30px;text-align: center;
+  }
+  .label input{border-radius: 30px;
+    border: 2px solid black;
+    font-size: 30px;
+    padding: 3px 40px;
+    text-align: center;
+   
+  }
+  .submit{
+    margin: 5px auto;
+  }
+  .submit button{color: #ec0a0a;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 40px;
+    background-color: blue;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    padding: 6px 30px;
+  }
+ .submit button:hover{
+    background-color: yellow;
+ }
+ .submit a{
+    color: rgb(30, 243, 172);
+ }
+ .backbutton{
+    margin: 5px 30px;
+    background-color: white;
+    width
+ }
